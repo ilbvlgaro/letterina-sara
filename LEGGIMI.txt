@@ -1,0 +1,24 @@
+LETTERINA PER SARA — VERSIONE PER AGGIUNGERE FOTO DA IPHONE
+
+Questa versione usa foto permanenti che saranno visibili anche a Sara dopo la pubblicazione.
+Metti le foto nella stessa cartella di index.html e chiamale esattamente:
+foto1.jpg
+foto2.jpg
+foto3.jpg
+foto4.jpg
+
+IMPORTANTE: cambiare il nome di un file .HEIC in .jpg NON lo converte. Usa immagini JPEG/JPG vere.
+Se le foto dell'iPhone sono HEIC, puoi convertirle con l'app Comandi (scorciatoia con azione "Converti immagine" in JPEG) oppure esportarle in JPEG da un'app che supporta la conversione.
+
+PUBBLICARE DA IPHONE (metodo GitHub + Netlify)
+1. Scarica ed estrai lo ZIP nell'app File.
+2. Apri Safari e vai su https://github.com, crea un account gratuito o accedi.
+3. Crea un nuovo repository, per esempio "letterina-sara", e impostalo Public (oppure usa un repository privato solo se il metodo di pubblicazione scelto lo supporta).
+4. Nel repository usa Add file > Upload files. Carica index.html e le quattro immagini foto1.jpg, foto2.jpg, foto3.jpg, foto4.jpg. I file devono stare tutti nella stessa cartella principale del repository. Puoi caricare solo le foto che vuoi usare; gli spazi senza foto resteranno vuoti.
+5. Vai su https://app.netlify.com e accedi con GitHub.
+6. Scegli Add new site / Import an existing project, seleziona GitHub e autorizza Netlify a leggere il repository.
+7. Seleziona il repository "letterina-sara". Lascia vuoto il campo Build command e imposta Publish directory su "." se richiesto, poi avvia il deploy.
+8. Netlify crea un indirizzo che termina in netlify.app. Aprilo e prova la letterina; invia il link a Sara solo quando hai verificato le foto.
+
+NOTA
+Il nome dei file deve combaciare esattamente. Se usi solo 2 foto, carica foto1.jpg e foto2.jpg. Non caricare il file ZIP come se fosse una foto o come index.html.
